@@ -12,7 +12,7 @@ public class testRunner extends BaseTest {
 
     }
 
-    
+    MainPage mainPage;
 
     @Test
     public void addTest(){
