@@ -18,7 +18,7 @@ public class MainPage extends BasePage{
     public By viewButton;
 
 
-    public HomePage(WebDriver driver) {
+    public MainPage(WebDriver driver) {
         super(driver);
     }
 
