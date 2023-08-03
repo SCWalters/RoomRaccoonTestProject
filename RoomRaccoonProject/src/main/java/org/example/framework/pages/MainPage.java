@@ -7,13 +7,14 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 
 
 
-public class HomePage extends BasePage{
+public class MainPage extends BasePage{
 
     public WebElement element;
     WebdriverUtils utils = new WebdriverUtils(driver);
     private By addBtn = By.xpath("//a[@class='ajaxModalLauncher btn btn-primary'][1]");
     private By titleField = By.xpath("//input[@id='staticEmail']");
     private By submitBtn = By.xpath("//input[@type='submit']");
+    private By view = By.xpath("//div[contains(text(), 'My Test')]//..//a[contains(text(), 'view')]");
     public By viewButton;
 
 

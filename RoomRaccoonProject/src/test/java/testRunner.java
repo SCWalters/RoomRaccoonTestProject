@@ -12,21 +12,24 @@ public class testRunner extends BaseTest {
 
     }
 
+    
+
     @Test
     public void addTest(){
         //Adds a new field to the list
-        HomePage homePage = new HomePage(driver);
+        mainPage = new MainPage(driver);
         homePage.addButton();
         homePage.enterTitle("My Test");
         homePage.submitButton();
-
+        assertTrue(mainPage.);
     }
 
     @Test
     public void viewTest(){
         //Views the created field
-        HomePage homePage = new HomePage(driver);
+         mainPage = new MainPage(driver);
         homePage.viewButton("My Test");
+        Assert.assertEquals(mainPage.view().contains("My Test"));
     }
 
 }
