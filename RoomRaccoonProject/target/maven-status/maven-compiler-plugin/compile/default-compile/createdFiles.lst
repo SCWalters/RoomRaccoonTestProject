@@ -1,0 +1,3 @@
+org\example\framework\pages\BasePage.class
+org\example\framework\pages\HomePage.class
+org\example\framework\pages\BasePage$WebDriverUtils.class
